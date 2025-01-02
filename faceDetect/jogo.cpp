@@ -180,8 +180,8 @@ int main(){
         return -1;
     }
 
-    if (!capture.open("video.mp4")) // para testar com um video
-    // if(!capture.open(0)) // para testar com a webcam
+    //if (!capture.open("video.mp4")) // para testar com um video
+    if(!capture.open(0)) // para testar com a webcam
     {
         cout << "Capture from camera #0 didn't work" << endl;
         return 1;
